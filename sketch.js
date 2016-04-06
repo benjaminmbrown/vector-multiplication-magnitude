@@ -13,6 +13,10 @@ function draw() {
 	mouse.sub(center);
 	mouse.mult(0.5);//multiply by 0.5
 
+	//Other code to normalize and set the scale to be static no 
+	//matter where the mouse is
+	//mouse.normalize();
+	//mouse.mult(50);
 	var mag = mouse.mag();
 	
 
